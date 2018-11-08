@@ -26,6 +26,7 @@ public class Consumer {
             QueueingConsumer.Delivery delivery = consumer.nextDelivery();
             String message = new String(delivery.getBody());
             System.out.println("收到消息" + message);
+            System.out.println("ye");
         }
     }
 }
