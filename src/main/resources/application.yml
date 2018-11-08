@@ -1,0 +1,11 @@
+server:
+    port: 8004
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: rabbit-test
+    password: rabbit-test
+    virtual-host: /rabbit-test
+    publisher-confirms: true
+    publisher-returns: true
